@@ -6,7 +6,7 @@ const Image = (props) => {
     const {urls, alt_description} = props.info;
 
     return (
-        <img className="img-thumbnail" src={urls.small} alt={alt_description}/>
+        <img className="img-thumbnail" src={urls.thumb} alt={alt_description}/>
     );
 };
 
